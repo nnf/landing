@@ -1,0 +1,100 @@
+/* 
+* @Author: sujing
+* @Date:   2014-06-03 13:53:59
+* @Last Modified by:   sujing
+* @Last Modified time: 2016-04-04 09:06:58
+*/
+body {
+  background: #000;
+  color: #03FE4F;
+  font-family: 'Helvetica Neue','Helvetica','Arial', sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+a:link, a:active, a:visited 
+{text-decoration:none;transition: all 0.2s linear;}
+a:hover, a:focus
+{text-decoration:none;transition: all 0.2s linear; color: #c7c7c7}
+::-moz-selection {
+  background: #ff9d2e;
+  text-shadow: none;
+}
+::selection {
+  background: #ff9d2e;
+  text-shadow: none;
+}
+.wrap {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+@-webkit-keyframes rotation{
+  from{-webkit-transform:rotate(0deg);}
+  to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes rotation{
+  from{-moz-transform:rotate(0deg);}
+  to{-moz-transform:rotate(360deg);}
+}
+@-o-keyframes rotation{
+  from{-o-transform:rotate(0deg);}
+  to{-o-transform:rotate(360deg);}
+}
+@keyframes rotation{
+  from{transform:rotate(0deg);}
+  to{transform:rotate(360deg);}
+}
+#logo {
+  width: 512px;
+  height: 512px;
+}
+.brand {
+  font-size: 2em;
+  font-family: 'Helvetica Neue','Helvetica','Arial', sans-serif;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+.dns {
+  font-weight: 200;
+}
+.box {
+  margin: 30px 0;
+}
+.address {
+  border: 1px solid #03FE4F;
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 8px 20px;
+  border-radius: 7px;
+  transition: all .4s ease;
+  -webkit-transition: all .4s ease;
+}
+.address:hover, .address:focus {
+  background: #03FE4F!important;
+  color: #fff;
+}
+.address.zeroclipboard-is-hover, .address.zeroclipboard-is-active {
+  background: transparent!important;
+}
+.slogon {
+  font-size: 1.25em;
+  font-family: 'Helvetica Neue','Helvetica','Arial', sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.count {
+  color: #eee;
+  font-size: 1em;
+  font-style:oblique;
+  margin: .3em 0;
+}
+.feedback {
+  color: #fff;
+  font-size: .75em;
+  font-weight: 100;
+  text-decoration: none;
+}
