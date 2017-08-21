@@ -23,14 +23,15 @@ a:hover, a:focus
   background: #ff9d2e;
   text-shadow: none;
 }
+.container {
+  text-align: center;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  height: 100vh;
+}
 .wrap {
-  position:absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  margin:auto;
-  height:512px;
+
 }
 @-webkit-keyframes rotation{
   from{-webkit-transform:rotate(0deg);}
@@ -49,8 +50,8 @@ a:hover, a:focus
   to{transform:rotate(360deg);}
 }
 #logo {
-  width: 512px;
-  height: 512px;
+  width: 42vw;
+  height: 42vw;
 }
 .brand {
   font-size: 2em;
